@@ -71,6 +71,8 @@
 
             <!--Title-->
             <TextView
+                android:id="@+id/txtPolice"
+                android:clickable="true"
                 android:textSize="30dp"
                 android:text="police"
                 android:layout_width="wrap_content"
@@ -91,6 +93,8 @@
 
             <!--Title-->
             <TextView
+                android:id="@+id/txtHospital"
+                android:clickable="true"
                 android:textSize="30dp"
                 android:text="Hospital"
                 android:layout_width="wrap_content"
@@ -111,6 +115,8 @@
 
             <!--Title-->
             <TextView
+                android:id="@+id/txtInsurance"
+                android:clickable="true"
                 android:textSize="30dp"
                 android:text="Insurance"
                 android:layout_width="wrap_content"
@@ -131,6 +137,8 @@
 
             <!--Title-->
             <TextView
+                android:id="@+id/txtExit"
+                android:clickable="true"
                 android:textSize="30dp"
                 android:text="Exit"
                 android:layout_width="wrap_content"
