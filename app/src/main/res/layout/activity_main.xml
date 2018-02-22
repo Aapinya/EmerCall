@@ -57,6 +57,87 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
+        <!--Police-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Icon-->
+            <ImageView
+                android:src="@drawable/station1"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <!--Title-->
+            <TextView
+                android:textSize="30dp"
+                android:text="police"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--Hospital-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Icon-->
+            <ImageView
+                android:src="@drawable/station2"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <!--Title-->
+            <TextView
+                android:textSize="30dp"
+                android:text="Hospital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--Insurance-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Icon-->
+            <ImageView
+                android:src="@drawable/station3"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <!--Title-->
+            <TextView
+                android:textSize="30dp"
+                android:text="Insurance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--Exit-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Icon-->
+            <ImageView
+                android:src="@drawable/sstation4"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <!--Title-->
+            <TextView
+                android:textSize="30dp"
+                android:text="Exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
     </LinearLayout>
 
 
