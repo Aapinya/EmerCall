@@ -94,6 +94,26 @@ public class MainFragment extends Fragment {
 
 
 //          For  Station 4
+        ImageView  station4ImageView = getView().findViewById(R.id.imageViewStation4);
+        station3ImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(tag, "Click Image station3");
+                callStation("4444");
+            }
+        });
+        TextView station4TextView = getView().findViewById(R.id.textViewStation4);
+        station3ImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callStation("4444");
+            }
+        });
+
+
+
+
+
     }//        Main Method
 
     public void callStation(String numberCall) {
